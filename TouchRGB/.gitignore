@@ -1,0 +1,6 @@
+build/
+firmware/build/
+firmware/.ninja_log
+__pycache__/
+*.pyc
+.publish/
