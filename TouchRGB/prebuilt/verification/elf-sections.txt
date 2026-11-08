@@ -1,0 +1,51 @@
+
+C:\Psoc_Projects\TouchRGB\build\artifacts\TouchRGB.elf:     file format elf32-littlearm
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .cy_m0p_image 000019b4  10000000  10000000  00001000  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  1 .text         0000bf7c  10002000  10002000  00003000  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .ARM.exidx    00000008  1000df7c  1000df7c  0000ef7c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  3 .copy.table   00000018  1000df84  1000df84  0000ef84  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  4 .zero.table   00000008  1000df9c  1000df9c  0000ef9c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  5 .ramVectors   0000028c  08002000  08002000  0000f808  2**3
+                  CONTENTS, READONLY
+  6 .data         0000056c  0800228c  1000dfa4  0000f28c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  7 .cy_sharedmem 0000000c  080027f8  1000e510  0000f7f8  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+  8 .noinit       000000cc  08002808  1000e520  0000f808  2**3
+                  ALLOC
+  9 .bss          000049fc  080028d4  1000e51c  0000f8d4  2**2
+                  ALLOC
+ 10 .heap         0003f530  080072d0  1000e51c  000102d0  2**3
+                  ALLOC, READONLY
+ 11 .stack_dummy  00001000  08046800  08046800  0000fa98  2**3
+                  CONTENTS, READONLY
+ 12 .ARM.attributes 0000002e  00000000  00000000  00010a98  2**0
+                  CONTENTS, READONLY
+ 13 .comment      000000c4  00000000  00000000  00010ac6  2**0
+                  CONTENTS, READONLY
+ 14 .debug_line   0002ebc8  00000000  00000000  00010b8a  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 15 .debug_line_str 000002d1  00000000  00000000  0003f752  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 16 .debug_info   000d34b0  00000000  00000000  0003fa23  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 17 .debug_abbrev 0000d6f6  00000000  00000000  00112ed3  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 18 .debug_aranges 00002610  00000000  00000000  001205d0  2**3
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 19 .debug_str    0002d658  00000000  00000000  00122be0  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 20 .debug_loclists 00022b2e  00000000  00000000  00150238  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 21 .debug_rnglists 00003482  00000000  00000000  00172d66  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 22 .debug_frame  00006df8  00000000  00000000  001761e8  2**2
+                  CONTENTS, READONLY, DEBUGGING, OCTETS

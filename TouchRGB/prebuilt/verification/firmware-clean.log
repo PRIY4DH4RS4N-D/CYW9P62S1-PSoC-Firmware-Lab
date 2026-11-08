@@ -1,0 +1,5 @@
+make: Entering directory '/cygdrive/c/Psoc_Projects/TouchRGB/firmware'
+Searching installed tools in progress...
+Searching installed tools complete
+rm -rf C:/Psoc_Projects/TouchRGB/firmware/build
+make: Leaving directory '/cygdrive/c/Psoc_Projects/TouchRGB/firmware'

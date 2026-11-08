@@ -1,0 +1,5 @@
+PASS: HSV reference (92160 vectors), RGB round trips (140608 vectors), gamma, brightness, slider mapping
+PASS: button/slider bounce, hold, touch, release, timestamp wrap
+PASS: fade endpoints/retargeting/wrap, all modes, all categories, confirmation, demo timing
+ALL SOFTWARE TESTS PASSED
+PASS: PWM pin/inversion/duty contract, off startup, runtime error shutdown, partial init cleanup

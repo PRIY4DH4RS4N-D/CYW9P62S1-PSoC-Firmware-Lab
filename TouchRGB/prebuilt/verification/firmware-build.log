@@ -1,0 +1,332 @@
+make: Entering directory '/cygdrive/c/Psoc_Projects/TouchRGB/firmware'
+Searching installed tools in progress...
+Searching installed tools complete
+NOTE: Using 'C:/Infineon/Tools/ModusToolbox/tools_3.9/ninja/ninja.exe' from PATH.
+Generating mtbninja data files...
+Generating mtbninja data complete...
+
+Prebuild operations complete
+Toolchain validation: PASS
+Initializing build: TouchRGB Release APP_CYW9P62S1-43438EVB-01 GCC_ARM
+# 0: Loading the application in directory 'C:/Psoc_Projects/TouchRGB/firmware'
+# 0: Loading the ModusToolbox Technology Packs and Early Access Packs
+# 0: Loading the tools information
+[1/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/bsps/APP_CYW9P62S1-43438EVB-01/COMPONENT_CM4/TOOLCHAIN_GCC_ARM/startup_psoc6_01_cm4.o
+[2/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/bsps/APP_CYW9P62S1-43438EVB-01/bluetooth/cybsp_bt_config.o
+[3/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/bsps/APP_CYW9P62S1-43438EVB-01/COMPONENT_CM4/system_psoc6_cm4.o
+[4/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/bsps/APP_CYW9P62S1-43438EVB-01/config/GeneratedSource/cycfg_capsense.o
+[5/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/bsps/APP_CYW9P62S1-43438EVB-01/config/GeneratedSource/cycfg.o
+[6/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/bsps/APP_CYW9P62S1-43438EVB-01/config/GeneratedSource/cycfg_peripherals.o
+[7/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/bsps/APP_CYW9P62S1-43438EVB-01/config/GeneratedSource/cycfg_clocks.o
+[8/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/bsps/APP_CYW9P62S1-43438EVB-01/config/GeneratedSource/cycfg_qspi_memslot.o
+[9/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/bsps/APP_CYW9P62S1-43438EVB-01/config/GeneratedSource/cycfg_pins.o
+[10/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/bsps/APP_CYW9P62S1-43438EVB-01/config/GeneratedSource/cycfg_routing.o
+[11/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/bsps/APP_CYW9P62S1-43438EVB-01/config/GeneratedSource/cycfg_system.o
+[12/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/bsps/APP_CYW9P62S1-43438EVB-01/cybsp.o
+[13/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/color_engine.o
+[14/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/capsense_input.o
+[15/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/main.o
+[16/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/touch_controller.o
+[17/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/rgb_output.o
+[18/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/capsense/cy_capsense_control.o
+[19/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/capsense/cy_capsense_centroid.o
+[20/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/capsense/cy_capsense_csd.o
+[21/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/capsense/cy_capsense_csx.o
+[22/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/capsense/cy_capsense_filter.o
+[23/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/capsense/cy_capsense_processing.o
+[24/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/capsense/cy_capsense_structure.o
+[25/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/capsense/cy_capsense_sensing.o
+[26/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/capsense/cy_capsense_tuner.o
+[27/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/freertos/Source/croutine.o
+[28/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/freertos/Source/event_groups.o
+[29/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/freertos/Source/list.o
+[30/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/freertos/Source/portable/COMPONENT_CM4/TOOLCHAIN_GCC_ARM/port.o
+[31/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/freertos/Source/portable/MemMang/heap_1.o
+[32/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/freertos/Source/portable/MemMang/heap_2.o
+[33/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/freertos/Source/portable/MemMang/heap_3.o
+[34/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/freertos/Source/portable/MemMang/heap_4.o
+[35/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/freertos/Source/portable/MemMang/heap_5.o
+[36/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/freertos/Source/queue.o
+[37/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/freertos/Source/stream_buffer.o
+[38/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/freertos/Source/timers.o
+[39/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/TOOLCHAIN_GCC_ARM/cy_syslib_ext.o
+[40/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/bt-fw-azw-cyw43438/COMPONENT_AW-CU427-P/btfw.o
+[41/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/local/vendor/freertos/Source/tasks.o
+[42/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_01_cm0p_sleep.o
+[43/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_02_cm0p_sleep.o
+[44/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_03_cm0p_sleep.o
+[45/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_04_cm0p_sleep.o
+[46/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe1m_cm0p_sleep.o
+[47/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe2m_cm0p_sleep.o
+[48/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe4m_cm0p_sleep.o
+[49/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5100_cm0p_sleep.o
+[50/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe512k_cm0p_sleep.o
+[51/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5300_cm0p_sleep.o
+[52/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5200_cm0p_sleep.o
+[53/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_104_m_csp_ble_usb.o
+[54/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_104_m_csp_ble.o
+[55/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_116_bga_ble.o
+[56/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_116_bga_usb.o
+[57/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_124_bga.o
+[58/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_124_bga_sip.o
+[59/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_68_qfn_ble.o
+[60/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_43_smt.o
+[61/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_100_wlcsp.o
+[62/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_80_wlcsp.o
+[63/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_124_bga.o
+[64/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_128_tqfp.o
+[65/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_03_100_tqfp.o
+[66/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_68_qfn.o
+[67/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_03_49_wlcsp.o
+[68/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_03_68_qfn.o
+[69/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_04_64_tqfp.o
+[70/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_04_68_qfn.o
+[71/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_04_80_m_csp.o
+[72/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_04_80_tqfp.o
+[73/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_100_lqfp.o
+[74/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_144_lqfp.o
+[75/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_176_lqfp.o
+[76/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_64_lqfp.o
+[77/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_80_lqfp.o
+[78/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_100_lqfp.o
+[79/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_144_lqfp.o
+[80/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_176_lqfp.o
+[81/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_80_lqfp.o
+[82/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_64_lqfp.o
+[83/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_100_lqfp.o
+[84/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_144_lqfp.o
+[85/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_176_lqfp.o
+[86/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_64_lqfp.o
+[87/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_80_lqfp.o
+[88/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_psoc6_01.o
+[89/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_psoc6_02.o
+[90/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_psoc6_03.o
+[91/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_tviibe1m.o
+[92/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_psoc6_04.o
+[93/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_tviibe2m.o
+[94/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_tviibe4m.o
+[95/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_adc_mic.o
+[96/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_adc_sar.o
+[97/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_analog_common.o
+[98/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_audio_common.o
+[99/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_clock.o
+[100/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_comp.o
+[101/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_comp_ctb.o
+[102/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_crc.o
+[103/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_comp_lp.o
+[104/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_crypto_common.o
+[105/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_dac.o
+[106/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_dma.o
+[107/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_dma_dmac.o
+[108/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_ezi2c.o
+[109/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_dma_dw.o
+[110/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_gpio.o
+[111/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_hwmgr.o
+[112/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_i2s.o
+[113/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_i2c.o
+[114/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_interconnect.o
+[115/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_ipc.o
+[116/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_irq_impl.o
+[117/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_keyscan.o
+[118/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_lptimer.o
+[119/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_nvm.o
+[120/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_opamp.o
+[121/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_pdmpcm.o
+[122/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_pwm.o
+[123/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_quaddec.o
+[124/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_qspi.o
+[125/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_rtc.o
+[126/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_scb_common.o
+[127/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_sdhc.o
+[128/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_spi.o
+[129/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_syspm.o
+[130/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_system.o
+[131/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_tcpwm_common.o
+[132/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_tdm.o
+[133/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_timer.o
+[134/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_trng.o
+[135/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_uart.o
+[136/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_udb_sdio.o
+[137/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_utils.o
+[138/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_usb_dev.o
+[139/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_utils_impl.o
+[140/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-hal-cat1/source/cyhal_wdt.o
+[141/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/devices/COMPONENT_CAT1A/source/cy_device.o
+[142/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_adcmic.o
+[143/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_axidmac.o
+[144/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ble_clk.o
+[145/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cordic.o
+[146/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_canfd.o
+[147/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_aes_v1.o
+[148/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto.o
+[149/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_aes_v2.o
+[150/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_cmac_v1.o
+[151/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_cmac_v2.o
+[152/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_crc_v2.o
+[153/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_crc_v1.o
+[154/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_des_v2.o
+[155/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_des_v1.o
+[156/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_domain_params.o
+[157/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_ec25519.o
+[158/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_ecdsa.o
+[159/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_key_gen.o
+[160/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_eddsa.o
+[161/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hkdf_v2.o
+[162/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hmac_v1.o
+[163/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_nist_p.o
+[164/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hmac_v2.o
+[165/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hw.o
+[166/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hw_v1.o
+[167/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_mem_v1.o
+[168/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_mem_v2.o
+[169/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_prng_v1.o
+[170/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_prng_v2.o
+[171/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_sha_v1.o
+[172/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_rsa.o
+[173/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_sha_v2.o
+[174/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_trng.o
+[175/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_vu.o
+[176/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_aes.o
+[177/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_server.o
+[178/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_aes_ccm.o
+[179/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_cmac.o
+[180/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecc_eddsa.o
+[181/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecc_ec25519.o
+[182/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecdsa.o
+[183/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecc_key_gen.o
+[184/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_hkdf.o
+[185/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_hmac.o
+[186/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_nist_p.o
+[187/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_rsa.o
+[188/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_sha256.o
+[189/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_trng.o
+[190/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_utils.o
+[191/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_vu.o
+[192/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_csd.o
+[193/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ctb.o
+[194/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ctdac.o
+[195/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_dma.o
+[196/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_dmac.o
+[197/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_efuse_v3.o
+[198/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_efuse.o
+[199/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ephy.o
+[200/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ethif.o
+[201/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_evtgen.o
+[202/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_flash_srom.o
+[203/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_flash.o
+[204/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_flash_v2.o
+[205/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_gpio.o
+[206/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass.o
+[207/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass_ac.o
+[208/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass_csg.o
+[209/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass_sar.o
+[210/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_i2s.o
+[211/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_bt.o
+[212/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_drv.o
+[213/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_pipe.o
+[214/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_keyscan.o
+[215/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_sema.o
+[216/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lin.o
+[217/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lpcomp.o
+[218/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lvd.o
+[219/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lvd_ht.o
+[220/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mcwdt.o
+[221/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mcwdt_b.o
+[222/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mixer.o
+[223/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mpc.o
+[224/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ms_ctl.o
+[225/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pdm_pcm.o
+[226/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pdm_pcm_v2.o
+[227/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ppc.o
+[228/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pra.o
+[229/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pra_cfg.o
+[230/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_profile.o
+[231/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_prot.o
+[232/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_rtc.o
+[233/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sar2.o
+[234/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sar.o
+[235/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_common.o
+[236/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_ezi2c.o
+[237/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_spi.o
+[238/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_i2c.o
+[239/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sd_host.o
+[240/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_uart.o
+[241/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_seglcd.o
+[242/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smartio.o
+[243/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif_hb_flash.o
+[244/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif.o
+[245/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif_memslot.o
+[246/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysanalog.o
+[247/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif_sfdp.o
+[248/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysclk_v2.o
+[249/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysfault.o
+[250/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysint.o
+[251/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysint_v2.o
+[252/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysclk.o
+[253/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syslib.o
+[254/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_btss.o
+[255/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_pdcm.o
+[256/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm.o
+[257/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_ppu.o
+[258/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_v2.o
+[259/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_v3.o
+[260/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_v4.o
+[261/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_systick.o
+[262/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_systick_v2.o
+[263/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_counter.o
+[264/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_motif.o
+[265/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_pwm.o
+[266/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_quaddec.o
+[267/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_shiftreg.o
+[268/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tdm.o
+[269/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_trigmux.o
+[270/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_usbfs_dev_drv.o
+[271/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_usbfs_dev_drv_io.o
+[272/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_wdt.o
+[273/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_usbfs_dev_drv_io_dma.o
+[274/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/cy_wdt_b.o
+[275/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/source/ppu_v1.o
+[276/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/third_party/ethernet/src/edd.o
+[277/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/third_party/ethernet/src/edd_rx.o
+[278/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/drivers/third_party/ethernet/src/edd_tx.o
+[279/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/mtb-pdl-cat1/utils/TOOLCHAIN_GCC_ARM/mtb_stdlib_stubs.o
+[280/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/udb-sdio-whd/COMPONENT_UDB_SDIO_P2/SDIO_HOST_cfg.o
+[281/282] Building object file C:/Psoc_Projects/TouchRGB/firmware/build/Release/libraries_shared/udb-sdio-whd/SDIO_HOST.o
+[282/282] Linking, creating elf file build/APP_CYW9P62S1-43438EVB-01/Release/TouchRGB.elf
+C:/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: build/APP_CYW9P62S1-43438EVB-01/Release/TouchRGB.elf has a LOAD segment with RWX permissions
+Memory region         Used Size  Region Size  %age Used
+             ram:        274 KB       278 KB     98.56%
+           flash:       58652 B         1 MB      5.59%
+       em_eeprom:           0 B        32 KB      0.00%
+sflash_user_data:           0 B         2 KB      0.00%
+      sflash_nar:           0 B        512 B      0.00%
+sflash_public_key:           0 B         3 KB      0.00%
+    sflash_toc_2:           0 B        512 B      0.00%
+   sflash_rtoc_2:           0 B        512 B      0.00%
+             xip:           0 B       128 MB      0.00%
+           efuse:           0 B         1 MB      0.00%
+C:/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/arm-none-eabi-objcopy -O ihex C:/Psoc_Projects/TouchRGB/firmware/build/APP_CYW9P62S1-43438EVB-01/Release/TouchRGB.elf C:/Psoc_Projects/TouchRGB/firmware/build/APP_CYW9P62S1-43438EVB-01/Release/TouchRGB.hex
+==============================================================================
+= Build complete =
+==============================================================================
+
+  ----------------------------------------------------------
+ | Section                     |    Address |          Used |
+  ----------------------------------------------------------
+ |   .cy_m0p_image             | 0x10000000 |         6,580 |
+ |   .text                     | 0x10002000 |        49,020 |
+ |   .ARM.exidx                | 0x1000df7c |             8 |
+ |   .copy.table               | 0x1000df84 |            24 |
+ |   .zero.table               | 0x1000df9c |             8 |
+ |   .data                     | 0x0800228c |         1,388 |
+ |   .data (load data)         | 0x1000dfa4 |         1,388 |
+ |   .cy_sharedmem             | 0x080027f8 |            12 |
+ |   .cy_sharedmem (load data) | 0x1000e510 |            12 |
+ |   .noinit                   | 0x08002808 |           204 |
+ |   .bss                      | 0x080028d4 |        18,940 |
+ |   .heap                     | 0x080072d0 |       259,376 |
+  ----------------------------------------------------------
+
+Total FLASH (Available): 1,048,576
+Total FLASH (Utilized) : 57,040
+make: Leaving directory '/cygdrive/c/Psoc_Projects/TouchRGB/firmware'

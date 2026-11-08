@@ -1,0 +1,44 @@
+{
+  "board": "CYW9P62S1-43438EVB-01",
+  "device": "CY8C6247BZI-D54",
+  "artifacts": {
+    "TouchRGB.bin": "d923d6f5415353ca80ad85f603eee46d883999d6a2cb1780e2d04e278be65465",
+    "TouchRGB.elf": "02b837bf586028bf0e70ac357d1fb5855fe63943d0f70e99fffc4d42d5bec9a2",
+    "TouchRGB.hex": "670196a3227cc8cac8380098d9b3b554669e45001bbb9a0e1a3d589402e60a67",
+    "TouchRGB.map": "3fe2cfa9fab5fa964cea35211102274f1ecd7b7dfb22341ea4122d6f6ed4a5a3"
+  },
+  "firmware_sources": {
+    "firmware\\capsense_input.c": "bc9e7edbf0457f24a65b7f5ab249dac28499e4ead5a6203bd79d1da926176100",
+    "firmware\\color_engine.c": "53dc697bcbbc6d9a1bdb8f4cb70575484c5a759cadff56d8cdd289508193d258",
+    "firmware\\main.c": "2e909cd1881e4c5e0828dba760770fae5298ec9d09d30203f802df9d58d6bb35",
+    "firmware\\rgb_output.c": "2e5273731552a665ac37d1c5aff2e47aaf1150bc7bbf94ac7e3f686a7a5709ad",
+    "firmware\\touch_controller.c": "ac6598fafbb6e942b36261f8624eb5764c11942fa7e8d74344fba68990973f8a",
+    "firmware\\capsense_input.h": "d4cfd329788a9d76a1732966e3b7dafb5eecbde04554ad1f7eefe1716b369346",
+    "firmware\\color_engine.h": "21ac0e59a03884445ec8d67b91e004e24e5e6d08be0496e4556f36a594a70175",
+    "firmware\\FreeRTOSConfig.h": "debf658fb693a52aec9da38f12eef15d691818a1cbe397010808a42389246ab6",
+    "firmware\\gamma_table.h": "57a30c78a8fee844d45f82e0d3c308b776760d5a288089c403a02df0953d8f85",
+    "firmware\\rgb_output.h": "baa0cded1c5b573072f26ea2f495a7726d53b781c3e36dd0b07578940dae8502",
+    "firmware\\touch_controller.h": "100d431f682f0ba0f898279bc933ade2227ec21a19ba3cea5915bcc2283d61c2",
+    "firmware\\Makefile": "24e603b2b69e37b741d447147f5abd2955889f34026ebc51403679a02af8b5d6"
+  },
+  "compiler": "arm-none-eabi-gcc.exe (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 14.2.1 20241119",
+  "flash_bytes": 57040,
+  "hex_min_address": "0x10000000",
+  "hex_max_address": "0x1000e51b",
+  "cm4_entry": "0x1000231d",
+  "checks": [
+    "BSP snapshot",
+    "artifact hashes",
+    "no unresolved symbols",
+    "ARM ELF header",
+    "HEX checksum/address/length",
+    "BIN matches HEX",
+    "source freshness",
+    "software test log"
+  ],
+  "warnings": [
+    "C:/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: build/APP_CYW9P62S1-43438EVB-01/Release/TouchRGB.elf has a LOAD segment with RWX permissions"
+  ],
+  "physical_tested": false,
+  "programmed": false
+}

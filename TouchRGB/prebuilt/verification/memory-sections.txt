@@ -1,0 +1,28 @@
+C:\Psoc_Projects\TouchRGB\build\artifacts\TouchRGB.elf  :
+section              size        addr
+.cy_m0p_image        6580   268435456
+.text               49020   268443648
+.ARM.exidx              8   268492668
+.copy.table            24   268492676
+.zero.table             8   268492700
+.ramVectors           652   134225920
+.data                1388   134226572
+.cy_sharedmem          12   134227960
+.noinit               204   134227976
+.bss                18940   134228180
+.heap              259376   134247120
+.stack_dummy         4096   134506496
+.ARM.attributes        46           0
+.comment              196           0
+.debug_line        191432           0
+.debug_line_str       721           0
+.debug_info        865456           0
+.debug_abbrev       55030           0
+.debug_aranges       9744           0
+.debug_str         185944           0
+.debug_loclists    142126           0
+.debug_rnglists     13442           0
+.debug_frame        28152           0
+Total             1832597
+
+
