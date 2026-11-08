@@ -1,0 +1,19 @@
+*.md text eol=lf
+*.py text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.mk text eol=lf
+*.hex -text
+*.bin -text
+*.elf -text
+*.pdf -text
+
+# Preserve the exact bytes used by BSP/release SHA-256 verification.
+TouchRGB/firmware/bsps/** -text
+TouchRGB/firmware/*.c -text
+TouchRGB/firmware/*.h -text
+TouchRGB/firmware/Makefile -text
+TouchRGB/firmware/vendor/** -text
+TouchRGB/sdk/** -text
+TouchRGB/prebuilt/** -text
+TouchRGB/prebuilt/README.md text eol=lf
