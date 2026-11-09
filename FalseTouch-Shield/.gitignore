@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+firmware/build/
+build/pyinstaller/
+*.spec
+*.jsonl
+
+**/.ninja_log
+**/.ninja_deps

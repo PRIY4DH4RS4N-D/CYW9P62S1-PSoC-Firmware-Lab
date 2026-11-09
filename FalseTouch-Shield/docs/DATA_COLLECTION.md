@@ -1,0 +1,12 @@
+# Physical data collection and evaluation
+
+1. Follow the flash guide only when you choose to program the board. Leave all CapSense electrodes untouched during startup calibration. Use the KitProg3 USB data connector and close competing serial terminals.
+2. Connect the dashboard and verify seven actual waveforms change with physical touches. Record a new session before touching. Allow release/quiet scans before the first event.
+3. Collect TAP (deliberate brief fingertip), HOLD (deliberate sustained contact), GRAZE (incidental light/brief contact), and WIDE (broad/multi-electrode contact). Label based on the intended physical interaction, independent of baseline/ML prediction. Ambiguous interactions should be excluded.
+4. Include each button and slider positions, multiple people, several recording sessions, and realistic incidental touches. Onboard electrodes cannot directly measure moisture; do not claim wet-touch robustness without appropriate labelled recordings. Avoid introducing liquid into the board.
+5. Collect at least 50 events per class per session as a practical starting point, in at least three sessions, preferably eight or more across people and conditions. This is a collection target, not an achieved dataset size or accuracy guarantee.
+6. Stop recording. Label selected rows or use the console collector's event-ID commands. Preserve session IDs and source metadata. Exclude sessions with dropped frames, sequence gaps or resets; reconnect/start a fresh session after reset. Do not combine half-events recorded across connection or threshold changes.
+7. Train with the commands in README. The fixed random seed groups entire sessions into a held-out test split. The script refuses a split missing any class. Inspect per-class recall, confusion matrix, baseline comparison and false acceptance of GRAZE/WIDE. Test people and conditions absent from training separately before claiming generalization.
+8. Run native C parity, review held-out results, install the model, rebuild, then separately program it when desired. Run UART MCU parity with the matching model artifacts. Report physical latency from measured event processing; plot refresh is not MCU inference latency.
+
+No recorded physical training dataset exists in this deliverable. `ml/synthetic_smoke` is explicitly artificial and cannot substantiate touch performance. There is no fabricated real confusion matrix. `evaluation.json` and PNG for real data are produced only by `ml.train` after labelled recordings are supplied.

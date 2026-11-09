@@ -1,0 +1,130 @@
+{
+  "source": "SYNTHETIC SMOKE TEST ONLY",
+  "features": [
+    "duration_ms",
+    "peak",
+    "max_width",
+    "mean_sum",
+    "travel",
+    "samples"
+  ],
+  "training_sessions": [
+    "SYNTHETIC-0",
+    "SYNTHETIC-2",
+    "SYNTHETIC-3",
+    "SYNTHETIC-4",
+    "SYNTHETIC-6",
+    "SYNTHETIC-7"
+  ],
+  "test_sessions": [
+    "SYNTHETIC-1",
+    "SYNTHETIC-5"
+  ],
+  "training_events": 840,
+  "test_events": 280,
+  "classification": {
+    "TAP": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 70.0
+    },
+    "HOLD": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 70.0
+    },
+    "GRAZE": {
+      "precision": 0.9859154929577465,
+      "recall": 1.0,
+      "f1-score": 0.9929078014184397,
+      "support": 70.0
+    },
+    "WIDE": {
+      "precision": 1.0,
+      "recall": 0.9857142857142858,
+      "f1-score": 0.9928057553956835,
+      "support": 70.0
+    },
+    "accuracy": 0.9964285714285714,
+    "macro avg": {
+      "precision": 0.9964788732394366,
+      "recall": 0.9964285714285714,
+      "f1-score": 0.9964283892035308,
+      "support": 280.0
+    },
+    "weighted avg": {
+      "precision": 0.9964788732394366,
+      "recall": 0.9964285714285714,
+      "f1-score": 0.9964283892035307,
+      "support": 280.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      70,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      70,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      70,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      69
+    ]
+  ],
+  "baseline": {
+    "TAP": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 70.0
+    },
+    "HOLD": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 70.0
+    },
+    "GRAZE": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 70.0
+    },
+    "WIDE": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 70.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 280.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 280.0
+    }
+  },
+  "limitations": "No hardware accuracy or latency claim. Grouped holdout only; collect independent people, moisture conditions and sessions."
+}

@@ -1,0 +1,6 @@
+{
+  "mode": "NATIVE C HOST VERIFIED; MCU NOT TESTED",
+  "vectors": 1129,
+  "predictions_equal": true,
+  "confidence_tolerance": 1e-07
+}

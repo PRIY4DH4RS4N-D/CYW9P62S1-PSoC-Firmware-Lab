@@ -7,7 +7,6 @@
 *.bin -text
 *.elf -text
 *.pdf -text
-
 # Preserve the exact bytes used by BSP/release SHA-256 verification.
 TouchRGB/firmware/bsps/** -text
 TouchRGB/firmware/*.c -text
@@ -17,7 +16,6 @@ TouchRGB/firmware/vendor/** -text
 TouchRGB/sdk/** -text
 TouchRGB/prebuilt/** -text
 TouchRGB/prebuilt/README.md text eol=lf
-
 # CapSlide board snapshots and prebuilt checksums require exact bytes.
 CapSlide/firmware/bsps/** -text
 CapSlide/firmware/FreeRTOSConfig.h -text
@@ -25,3 +23,11 @@ CapSlide/firmware/vendor/** -text
 CapSlide/sdk/** -text
 CapSlide/prebuilt/** -text
 CapSlide/prebuilt/README.md text eol=lf
+# FalseTouch-Shield preserves generated/vendor bytes and recorded artifacts.
+FalseTouch-Shield/firmware/bsps/** -text
+FalseTouch-Shield/firmware/FreeRTOSConfig.h -text
+FalseTouch-Shield/firmware/vendor/** -text
+FalseTouch-Shield/sdk/** -text
+FalseTouch-Shield/prebuilt/** -text
+FalseTouch-Shield/prebuilt/README.md text eol=lf
+FalseTouch-Shield/prebuilt/FalseTouch-Shield-Windows-x64.zip filter=lfs diff=lfs merge=lfs -text
