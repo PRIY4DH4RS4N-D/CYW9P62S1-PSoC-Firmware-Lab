@@ -2,6 +2,48 @@
 
 Embedded firmware projects for the **Infineon CYW9P62S1-43438EVB-01** PSoC 6 development board, with source code, preserved board configuration, reproducible build instructions and verification records.
 
+## Projects
+
+| Project | What it does | Get started |
+|---|---|---|
+| **[CapSlide Mini Desk](CapSlide/README.md)** | Touch-controlled Windows virtual desktop with persistent X/Y axis switching, click/drag, five interactive apps and live hardware telemetry | [Windows app](CapSlide/prebuilt/CapSlide.exe) · [Firmware HEX](CapSlide/prebuilt/CapSlide.hex) · [Flash guide](CapSlide/FLASH_GUIDE.md) |
+| **[TouchRGB](TouchRGB/README.md)** | Standalone capacitive RGB controller with color wheel, presets, brightness and demo modes | [Firmware HEX](TouchRGB/prebuilt/TouchRGB.hex) · [Flash guide](TouchRGB/FLASH_GUIDE.md) |
+
+Each project includes its own SDK and board configuration. Choose the firmware for the application you want: programming either project replaces the application currently on the board.
+
+## CapSlide — Touch-Controlled Mini Desk
+
+Use the PSoC 6 as a physical input device for a PySide6 desktop simulation on Windows. The workspace includes Calculator, locally saved Notes, a mock File Explorer, pointer Settings and System Monitor. Windows can be dragged, resized, minimized, maximized and switched through the taskbar.
+
+| Input | Action |
+|---|---|
+| Capacitive Button 1 | Tap to toggle the persistent X/Y axis; holding does not repeat |
+| Five-segment slider | Move the pointer horizontally in X or vertically in Y |
+| Capacitive Button 2 | Left-click/select; hold while sliding to drag |
+| Slider release | Stop movement while preserving a held selection button |
+
+The dashboard shows an animated axis indicator, pointer trail, five-segment touch visualization, button states, coordinates, connection status, event rate and FPS. USB-UART uses KitProg3 at **115200 8N1**. This is sequential control of two axes using one one-dimensional slider.
+
+**[Project README](CapSlide/README.md) · [Download/build instructions](CapSlide/prebuilt/README.md) · [Protocol](CapSlide/docs/PROTOCOL.md) · [Control mapping](CapSlide/docs/TOUCH_MAPPING.md) · [Verification](CapSlide/docs/VERIFICATION.md)**
+
+### Run CapSlide
+
+Download [CapSlide.exe](CapSlide/prebuilt/CapSlide.exe) using GitHub's **Download raw file** action. The standalone x64 Windows app does not require a Python installation. Flash [CapSlide.hex](CapSlide/prebuilt/CapSlide.hex), then select the board's COM port in the app. COM22 was used during development; select the actual port assigned by Windows.
+
+```powershell
+# Hardware-independent desktop testing
+.\CapSlide.exe --simulator
+
+# Connect to an already-programmed board
+.\CapSlide.exe --port COM22
+```
+
+For source setup and rebuild commands, see the [CapSlide README](CapSlide/README.md#setup-from-source).
+
+### CapSlide verification
+
+**56 automated tests passed**, covering the compiled firmware gesture logic, both axes, debounce, coordinate mapping, serial recovery and interactive desktop behavior. The updated firmware was flashed and verified. A user-operated COM22 session recorded X/Y movement, three axis toggles and Button 2 click cycles with no sequence gaps or firmware TX errors; the user confirmed the controls worked. Long-duration physical dragging, actual USB unplug/replug and clean-PC deployment remain separate acceptance checks. See the [verification report](CapSlide/docs/VERIFICATION.md) for evidence and limits.
+
 ## TouchRGB — CAPSense RGB Color Controller
 
 Control the board's RGB LED directly with its two capacitive buttons and five-segment slider. Select a color, adjust brightness, choose a custom RGB preset, or run an automatic color demo.
@@ -62,6 +104,19 @@ The vendor linker layout emits one documented RWX LOAD-segment warning. **Physic
 ## Repository layout
 
 ```text
+CapSlide/
+├── firmware/       FreeRTOS touch input, UART, preserved BSP and middleware
+├── sdk/            Independent versioned SDK dependencies
+├── widgets/        Desktop windows, pointer, icons and telemetry widgets
+├── assets/         Dashboard theme
+├── tests/          Firmware parity, protocol, pointer, serial and GUI tests
+├── scripts/        Firmware/app builds, UART capture and EXE verification
+├── docs/           Architecture, protocol, controls and verification
+├── prebuilt/       Windows EXE, firmware and verification records
+├── main.py         PySide6 application entry point
+├── FLASH_GUIDE.md
+└── README.md
+
 TouchRGB/
 ├── firmware/       Application C, FreeRTOS, BSP and CapSense middleware
 ├── sdk/            Local versioned SDK dependencies

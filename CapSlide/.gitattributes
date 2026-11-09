@@ -1,0 +1,12 @@
+*.md text eol=lf
+*.py text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.json text eol=lf
+*.qss text eol=lf
+firmware/bsps/** -text
+firmware/FreeRTOSConfig.h -text
+firmware/vendor/** -text
+sdk/** -text
+prebuilt/** -text
+prebuilt/README.md text eol=lf

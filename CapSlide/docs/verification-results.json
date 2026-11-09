@@ -1,0 +1,79 @@
+{
+  "publication_date": "2026-11-09",
+  "automated_tests": 56,
+  "physical_session": {
+    "recorded_date": "2026-11-07",
+    "user_confirmed_working": true,
+    "events": 1141,
+    "axis_transitions": [
+      "Y",
+      "X",
+      "Y"
+    ],
+    "left_button_states": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "sequence_gaps": 0,
+    "max_tx_errors": 0,
+    "axes": {
+      "X": {
+        "moves": 505,
+        "minimum": 0,
+        "maximum": 100
+      },
+      "Y": {
+        "moves": 422,
+        "minimum": 9,
+        "maximum": 92
+      }
+    }
+  },
+  "artifacts": {
+    "CapSlide.bin": "d0854b717f7ee7c6e716624d8ad8aa7c18c08fdf1eea923f84d05eb9fb5bf2ee",
+    "CapSlide.elf": "bad5d7dc380be2512026168ecbafd677615d6cbdd13b6da6948186597ed0195c",
+    "CapSlide.exe": "7e5fcab9dab401bd46f7b27c2d5324ce99d1cc47444878ab717fa2732d9a8820",
+    "CapSlide.hex": "b0f6f0ee48f49c1a34f870276ba7cfe0032bcbf7f409f254f6c5200fdb6a0c12",
+    "CapSlide.map": "ff1d15f320e629646b2040580bbebf0691bac5fb94d0da4d55bc174af40fd508"
+  },
+  "executable_smoke": {
+    "disconnected": {
+      "ok": true,
+      "apps": [
+        "Calculator",
+        "Notes",
+        "File Explorer",
+        "Settings",
+        "System Monitor"
+      ],
+      "frozen": true,
+      "connection": "Disconnected",
+      "events": 0,
+      "errors": 0,
+      "device_tx_errors": 0,
+      "port": null,
+      "mode": "X",
+      "controls": "toggle-b1-click-b2"
+    },
+    "simulator": {
+      "ok": true,
+      "apps": [
+        "Calculator",
+        "Notes",
+        "File Explorer",
+        "Settings",
+        "System Monitor"
+      ],
+      "frozen": true,
+      "connection": "Simulator",
+      "events": 1,
+      "errors": 0,
+      "device_tx_errors": 0,
+      "port": null,
+      "mode": "X",
+      "controls": "toggle-b1-click-b2"
+    }
+  }
+}

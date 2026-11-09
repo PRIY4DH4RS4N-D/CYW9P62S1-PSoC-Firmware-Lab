@@ -17,3 +17,11 @@ TouchRGB/firmware/vendor/** -text
 TouchRGB/sdk/** -text
 TouchRGB/prebuilt/** -text
 TouchRGB/prebuilt/README.md text eol=lf
+
+# CapSlide board snapshots and prebuilt checksums require exact bytes.
+CapSlide/firmware/bsps/** -text
+CapSlide/firmware/FreeRTOSConfig.h -text
+CapSlide/firmware/vendor/** -text
+CapSlide/sdk/** -text
+CapSlide/prebuilt/** -text
+CapSlide/prebuilt/README.md text eol=lf

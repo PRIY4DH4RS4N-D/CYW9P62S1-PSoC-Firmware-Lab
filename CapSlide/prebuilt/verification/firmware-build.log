@@ -1,0 +1,53 @@
+make: Entering directory '/cygdrive/c/Psoc_Projects/CapSlide/firmware'
+Searching installed tools in progress...
+Searching installed tools complete
+NOTE: Using 'C:/Infineon/Tools/ModusToolbox/tools_3.9/ninja/ninja.exe' from PATH.
+Generating mtbninja data files...
+Generating mtbninja data complete...
+
+Prebuild operations complete
+Toolchain validation: PASS
+Initializing build: CapSlide Release APP_CYW9P62S1-43438EVB-01 GCC_ARM
+# 0: Loading the application in directory 'C:/Psoc_Projects/CapSlide/firmware'
+# 0: Loading the ModusToolbox Technology Packs and Early Access Packs
+# 0: Loading the tools information
+[1/3] Building object file C:/Psoc_Projects/CapSlide/firmware/build/Release/local/gesture.o
+[2/3] Building object file C:/Psoc_Projects/CapSlide/firmware/build/Release/local/main.o
+[3/3] Linking, creating elf file build/APP_CYW9P62S1-43438EVB-01/Release/CapSlide.elf
+C:/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: build/APP_CYW9P62S1-43438EVB-01/Release/CapSlide.elf has a LOAD segment with RWX permissions
+Memory region         Used Size  Region Size  %age Used
+             ram:        274 KB       278 KB     98.56%
+           flash:       54784 B         1 MB      5.22%
+       em_eeprom:           0 B        32 KB      0.00%
+sflash_user_data:           0 B         2 KB      0.00%
+      sflash_nar:           0 B        512 B      0.00%
+sflash_public_key:           0 B         3 KB      0.00%
+    sflash_toc_2:           0 B        512 B      0.00%
+   sflash_rtoc_2:           0 B        512 B      0.00%
+             xip:           0 B       128 MB      0.00%
+           efuse:           0 B         1 MB      0.00%
+C:/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/arm-none-eabi-objcopy -O ihex C:/Psoc_Projects/CapSlide/firmware/build/APP_CYW9P62S1-43438EVB-01/Release/CapSlide.elf C:/Psoc_Projects/CapSlide/firmware/build/APP_CYW9P62S1-43438EVB-01/Release/CapSlide.hex
+==============================================================================
+= Build complete =
+==============================================================================
+
+  -----------------------------------------------------------
+ | Section                     |    Address |           Used |
+  -----------------------------------------------------------
+ |   .cy_m0p_image             | 0x10000000 |          6,580 |
+ |   .text                     | 0x10002000 |         45,168 |
+ |   .ARM.exidx                | 0x1000d070 |              8 |
+ |   .copy.table               | 0x1000d078 |             24 |
+ |   .zero.table               | 0x1000d090 |              8 |
+ |   .data                     | 0x0800228c |          1,372 |
+ |   .data (load data)         | 0x1000d098 |          1,372 |
+ |   .cy_sharedmem             | 0x080027e8 |             12 |
+ |   .cy_sharedmem (load data) | 0x1000d5f4 |             12 |
+ |   .noinit                   | 0x080027f8 |            204 |
+ |   .bss                      | 0x080028c4 |         51,528 |
+ |   .heap                     | 0x0800f210 |       2,26,800 |
+  -----------------------------------------------------------
+
+Total FLASH (Available): 10,48,576
+Total FLASH (Utilized) : 53,172
+make: Leaving directory '/cygdrive/c/Psoc_Projects/CapSlide/firmware'

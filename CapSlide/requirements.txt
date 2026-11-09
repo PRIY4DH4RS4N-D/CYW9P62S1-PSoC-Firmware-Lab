@@ -1,0 +1,4 @@
+# Official PySide6 distribution containing QtCore, QtGui, QtWidgets and QtTest.
+# Addons/WebEngine are not used by this desktop application.
+PySide6-Essentials==6.7.3
+pyserial==3.5

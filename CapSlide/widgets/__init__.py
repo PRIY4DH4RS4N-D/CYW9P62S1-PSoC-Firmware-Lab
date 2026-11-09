@@ -1,0 +1,1 @@
+"""CapSlide desktop widgets."""

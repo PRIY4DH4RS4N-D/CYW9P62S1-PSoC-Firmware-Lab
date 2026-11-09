@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "apps": [
+    "Calculator",
+    "Notes",
+    "File Explorer",
+    "Settings",
+    "System Monitor"
+  ],
+  "frozen": true,
+  "connection": "Simulator",
+  "events": 1,
+  "errors": 0,
+  "device_tx_errors": 0,
+  "port": null,
+  "mode": "X",
+  "controls": "toggle-b1-click-b2"
+}

@@ -1,0 +1,30 @@
+{
+  "recorded_date": "2026-11-07",
+  "user_confirmed_working": true,
+  "events": 1141,
+  "axis_transitions": [
+    "Y",
+    "X",
+    "Y"
+  ],
+  "left_button_states": [
+    1,
+    0,
+    1,
+    0
+  ],
+  "sequence_gaps": 0,
+  "max_tx_errors": 0,
+  "axes": {
+    "X": {
+      "moves": 505,
+      "minimum": 0,
+      "maximum": 100
+    },
+    "Y": {
+      "moves": 422,
+      "minimum": 9,
+      "maximum": 92
+    }
+  }
+}

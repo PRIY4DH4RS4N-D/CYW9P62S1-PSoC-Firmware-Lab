@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+ 279928	     44	  51732	 331704	  50fb8	C:\Psoc_Projects\CapSlide\build\artifacts\CapSlide.elf
