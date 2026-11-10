@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "hashed_deliverables": 6,
+  "intel_hex_records": 8062,
+  "elf": "ELF32 little-endian ARM",
+  "model_embedded": true,
+  "source_and_exe_exports": true,
+  "hardware": "NOT TESTED"
+}

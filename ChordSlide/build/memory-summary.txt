@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+ 327468	     44	  79848	 407360	  63740	C:\Psoc_Projects\ChordSlide\build\artifacts\ChordSlide.elf

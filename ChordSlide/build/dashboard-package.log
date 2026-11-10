@@ -1,0 +1,136 @@
+469 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.9
+470 INFO: Python: 3.11.9
+489 INFO: Platform: Windows-10-10.0.26200-SP0
+489 INFO: Python environment: C:\Psoc_Projects\ChordSlide\.venv
+491 INFO: wrote build\ChordSlide.spec
+840 INFO: Module search paths (PYTHONPATH):
+['C:\\Psoc_Projects\\ChordSlide',
+ 'C:\\Users\\Priyadarsan '
+ 'D\\AppData\\Local\\Programs\\Python\\Python311\\python311.zip',
+ 'C:\\Users\\Priyadarsan D\\AppData\\Local\\Programs\\Python\\Python311\\DLLs',
+ 'C:\\Users\\Priyadarsan D\\AppData\\Local\\Programs\\Python\\Python311\\Lib',
+ 'C:\\Users\\Priyadarsan D\\AppData\\Local\\Programs\\Python\\Python311',
+ 'C:\\Psoc_Projects\\ChordSlide\\.venv',
+ 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages',
+ 'C:\\Users\\Priyadarsan '
+ 'D\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages',
+ 'C:\\Psoc_Projects\\ChordSlide']
+1700 INFO: Appending 'datas' from .spec
+1708 INFO: checking Analysis
+1708 INFO: Building Analysis because Analysis-00.toc is non existent
+1708 INFO: Looking for Python shared library...
+1708 INFO: Using Python shared library: C:\Users\Priyadarsan D\AppData\Local\Programs\Python\Python311\python311.dll
+1708 INFO: Running Analysis Analysis-00.toc
+1708 INFO: Target bytecode optimization level: 0
+1708 INFO: Initializing module dependency graph...
+1712 INFO: Initializing module graph hook caches...
+1742 INFO: Analyzing modules for base_library.zip ...
+4039 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+4171 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+8529 INFO: Processing standard module hook 'hook-math.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9614 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+15346 INFO: Caching module dependency graph...
+15508 INFO: Analyzing C:\Psoc_Projects\ChordSlide\dashboard_launcher.py
+15659 INFO: Processing standard module hook 'hook-numpy.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+17627 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+18696 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+19033 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+20900 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+24184 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+24236 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+26746 INFO: Processing standard module hook 'hook-webbrowser.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+27026 INFO: Processing standard module hook 'hook-psutil.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+34472 INFO: Processing standard module hook 'hook-PySide6.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+34757 INFO: Processing standard module hook 'hook-shiboken6.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+34974 INFO: Processing standard module hook 'hook-PySide6.QtNetwork.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+45277 INFO: Processing standard module hook 'hook-PySide6.QtCore.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+92100 INFO: Processing standard module hook 'hook-PySide6.QtGui.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+161430 INFO: Processing standard module hook 'hook-PySide6.QtWidgets.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+172565 INFO: Processing standard module hook 'hook-pyqtgraph.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+1900 WARNING: Failed to collect submodules for 'pyqtgraph.opengl' because importing 'pyqtgraph.opengl' raised: ModuleNotFoundError: No module named 'OpenGL'
+176894 INFO: hook-pyqtgraph: selected 'PySide6' as Qt bindings because hook for 'PySide6' has been run before.
+177204 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+177237 INFO: Processing standard module hook 'hook-PySide6.QtSvg.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+179182 INFO: Processing standard module hook 'hook-PySide6.QtOpenGLWidgets.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+180858 INFO: Processing standard module hook 'hook-PySide6.QtTest.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+184946 INFO: Processing standard module hook 'hook-h5py.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+187536 INFO: Processing standard module hook 'hook-xml.dom.domreg.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+191263 INFO: Processing standard module hook 'hook-pandas.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+196099 INFO: Processing standard module hook 'hook-zoneinfo.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+200703 INFO: Processing standard module hook 'hook-pandas.io.formats.style.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+205645 INFO: Processing standard module hook 'hook-pyarrow.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+208431 INFO: Processing standard module hook 'hook-urllib3.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+208814 INFO: Processing pre-safe-import-module hook 'hook-backports.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+208822 INFO: SetuptoolsInfo: initializing cached setuptools info...
+210796 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+213236 INFO: Processing standard module hook 'hook-certifi.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+213524 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+214140 INFO: Processing standard module hook 'hook-fsspec.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+220567 INFO: Processing standard module hook 'hook-pandas.plotting.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+221237 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+222659 INFO: Processing standard module hook 'hook-dateutil.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+223468 INFO: Processing pre-safe-import-module hook 'hook-six.moves.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+227463 INFO: Processing standard module hook 'hook-sqlite3.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+229598 INFO: Processing standard module hook 'hook-pandas.io.clipboard.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+232720 INFO: Processing module hooks (post-graph stage)...
+236284 INFO: Processing standard module hook 'hook-jinja2.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+241139 INFO: Processing standard module hook 'hook-pycparser.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+242070 INFO: Processing standard module hook 'hook-setuptools.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+242142 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+242145 INFO: Processing pre-find-module-path hook 'hook-distutils.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+244844 INFO: Processing standard module hook 'hook-distutils.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+245095 INFO: Processing standard module hook 'hook-distutils.util.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+245308 INFO: Processing standard module hook 'hook-_osx_support.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+245960 INFO: Processing standard module hook 'hook-pkg_resources.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+249660 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+250228 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+254719 WARNING: Hidden import "pycparser.lextab" not found!
+254719 WARNING: Hidden import "pycparser.yacctab" not found!
+256552 INFO: Processing pre-safe-import-module hook 'hook-win32com.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\pre_safe_import_module'
+264882 INFO: Processing standard module hook 'hook-PySide6.QtOpenGL.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+276937 INFO: Processing standard module hook 'hook-setuptools._vendor.importlib_metadata.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+277469 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+281634 INFO: Processing standard module hook 'hook-tzdata.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+284020 INFO: Performing binary vs. data reclassification (1456 entries)
+312196 INFO: Looking for ctypes DLLs
+312301 WARNING: Ignoring /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation imported from C:\Users\Priyadarsan D\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\tools\list_ports_osx.py - only basenames are supported with ctypes imports!
+312301 WARNING: Ignoring /System/Library/Frameworks/IOKit.framework/IOKit imported from C:\Users\Priyadarsan D\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\tools\list_ports_osx.py - only basenames are supported with ctypes imports!
+313088 INFO: Analyzing run-time hooks ...
+313100 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+313113 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+313130 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+313150 INFO: Including run-time hook 'pyi_rth_traitlets.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+313163 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+313182 INFO: Including run-time hook 'pyi_rth_pkgres.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+313206 INFO: Including run-time hook 'pyi_rth_pyqtgraph_multiprocess.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+313218 INFO: Including run-time hook 'pyi_rth_pyside6.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+313237 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+313247 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+313371 INFO: Creating base_library.zip...
+313402 INFO: Looking for dynamic libraries
+C:\Psoc_Projects\ChordSlide\.venv\Lib\site-packages\PyInstaller\building\build_main.py:227: UserWarning: The numpy.array_api submodule is still experimental. See NEP 47.
+  __import__(package)
+320352 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\shiboken6', 'C:\\Users\\Priyadarsan D\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pandas.libs', 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\numpy.libs', 'C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\pyarrow.libs']
+320352 INFO: Extra DLL search directories (PATH): ['C:\\Psoc_Projects\\ChordSlide\\.venv\\Lib\\site-packages\\PySide6']
+331586 INFO: Warnings written to C:\Psoc_Projects\ChordSlide\build\pyinstaller\ChordSlide\warn-ChordSlide.txt
+332592 INFO: Graph cross-reference written to C:\Psoc_Projects\ChordSlide\build\pyinstaller\ChordSlide\xref-ChordSlide.html
+332820 INFO: checking PYZ
+332820 INFO: Building PYZ because PYZ-00.toc is non existent
+332820 INFO: Building PYZ (ZlibArchive) C:\Psoc_Projects\ChordSlide\build\pyinstaller\ChordSlide\PYZ-00.pyz
+340596 INFO: Building PYZ (ZlibArchive) C:\Psoc_Projects\ChordSlide\build\pyinstaller\ChordSlide\PYZ-00.pyz completed successfully.
+340837 INFO: checking PKG
+340838 INFO: Building PKG because PKG-00.toc is non existent
+340838 INFO: Building PKG (CArchive) ChordSlide.pkg
+434783 INFO: Building PKG (CArchive) ChordSlide.pkg completed successfully.
+434850 INFO: Bootloader C:\Psoc_Projects\ChordSlide\.venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+434850 INFO: checking EXE
+434850 INFO: Building EXE because EXE-00.toc is non existent
+434850 INFO: Building EXE from EXE-00.toc
+434852 INFO: Copying bootloader EXE to C:\Psoc_Projects\ChordSlide\build\dist\ChordSlide.exe
+435067 INFO: Copying icon to EXE
+435197 INFO: Copying 0 resources to EXE
+435197 INFO: Embedding manifest in EXE
+435310 INFO: Appending PKG archive to EXE
+435524 INFO: Fixing EXE headers
+438364 INFO: Building EXE from EXE-00.toc completed successfully.
+438467 INFO: Build complete! The results are available in: C:\Psoc_Projects\ChordSlide\build\dist

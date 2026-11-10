@@ -1,0 +1,16 @@
+{
+  "firmware": "BUILD VERIFIED",
+  "host": "HOST TEST VERIFIED",
+  "host_tests_passed": 16,
+  "skipped_hardware_tests": 1,
+  "exe_self_test": "PASS",
+  "model": "SYNTHETIC SMOKE TEST ONLY",
+  "model_bytes": 3016,
+  "flash_region_bytes": 130484,
+  "static_ram_before_c_heap_and_main_stack": 81916,
+  "c_heap_reservation_bytes": 198640,
+  "rtos_heap_bytes": 49152,
+  "tensor_arena_reserved_bytes": 24576,
+  "hardware": "HARDWARE NOT TESTED",
+  "flashing": "NOT PERFORMED"
+}

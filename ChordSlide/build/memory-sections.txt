@@ -1,0 +1,28 @@
+C:\Psoc_Projects\ChordSlide\build\artifacts\ChordSlide.elf  :
+section              size        addr
+.cy_m0p_image        6580   268435456
+.text              120836   268443648
+.ARM.exidx              8   268564484
+.copy.table            24   268564492
+.zero.table             8   268564516
+.ramVectors           652   134225920
+.data                1404   134226572
+.cy_sharedmem          12   134227976
+.noinit               204   134227992
+.bss                79644   134228208
+.heap              198640   134307856
+.stack_dummy         4096   134506496
+.ARM.attributes        46           0
+.comment              196           0
+.debug_line        193229           0
+.debug_line_str       762           0
+.debug_info       1161527           0
+.debug_abbrev       56517           0
+.debug_aranges       9936           0
+.debug_str         869738           0
+.debug_loclists    140330           0
+.debug_rnglists     13549           0
+.debug_frame        29432           0
+Total             2887370
+
+

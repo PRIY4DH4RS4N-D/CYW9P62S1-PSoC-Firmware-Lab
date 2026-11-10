@@ -6,11 +6,29 @@ Embedded firmware projects for the **Infineon CYW9P62S1-43438EVB-01** PSoC 6 dev
 
 | Project | What it does | Get started |
 |---|---|---|
+| **[ChordSlide](ChordSlide/README.md)** | Seven-channel FreeRTOS acquisition, MCU INT8 temporal CNN, guided dataset recording and Windows gesture dashboard. **Included model is synthetic-only; physical training/validation is pending.** | [Windows EXE](ChordSlide/build/dist/ChordSlide.exe) / [Firmware HEX](ChordSlide/build/artifacts/ChordSlide.hex) / [Verification](ChordSlide/VERIFICATION_REPORT.md) |
 | **[FalseTouch-Shield](FalseTouch-Shield/README.md)** | Seven-channel touch acquisition, false-touch baseline, ML collection/training pipeline and Windows dashboard. **Live dataset collection is pending; production ML is untrained.** | [Windows ZIP](FalseTouch-Shield/prebuilt/FalseTouch-Shield-Windows-x64.zip) / [Firmware HEX](FalseTouch-Shield/prebuilt/firmware/FalseTouch-Shield.hex) / [Verification](FalseTouch-Shield/VERIFICATION_REPORT.md) |
 | **[CapSlide Mini Desk](CapSlide/README.md)** | Touch-controlled Windows virtual desktop with persistent X/Y axis switching, click/drag, five interactive apps and live hardware telemetry | [Windows app](CapSlide/prebuilt/CapSlide.exe) · [Firmware HEX](CapSlide/prebuilt/CapSlide.hex) · [Flash guide](CapSlide/FLASH_GUIDE.md) |
 | **[TouchRGB](TouchRGB/README.md)** | Standalone capacitive RGB controller with color wheel, presets, brightness and demo modes | [Firmware HEX](TouchRGB/prebuilt/TouchRGB.hex) · [Flash guide](TouchRGB/FLASH_GUIDE.md) |
 
 Each project includes its own SDK and board configuration. Choose the firmware for the application you want: programming any project replaces the application currently on the board.
+
+## ChordSlide - Temporal Gesture CNN and Dataset Studio
+
+ChordSlide uses the onboard two CapSense buttons and five-segment slider to acquire seven sensor channels, segment 64?7 temporal windows, and run a compact INT8 temporal CNN on the PSoC 6 using Infineon TFLM with CMSIS-NN. Its PySide6/pyqtgraph Windows dashboard includes live waveforms and heatmap, probability bars, guided recording, timeline, confusion matrix, latency histogram and CSV/Parquet export.
+
+**The included model is a synthetic smoke-test model, not a validated physical gesture recognizer.** Firmware rejects gesture actions until a model trained on collected data is installed. No pinch/spread or multi-finger recognition is claimed.
+
+| Evidence | Status |
+|---|---|
+| Firmware | **BUILD VERIFIED**; ELF, HEX, BIN and map included; 130,484-byte flash address span |
+| Host software | **HOST TEST VERIFIED**; 16 passed, one hardware parity test skipped |
+| Windows EXE | Packaged and launched; offscreen rendering and CSV/Parquet export self-test passed |
+| ML pipeline | Synthetic-only training, float evaluation, INT8 conversion and embedding verified |
+| Physical data, scan rate, MCU inference latency and device parity | **HARDWARE NOT TESTED**; no serial ports were available during development |
+| Programming | No board was flashed or modified for ChordSlide |
+
+Download the [Windows EXE](ChordSlide/build/dist/ChordSlide.exe) using **Download raw file**. The ChordSlide EXE is included directly in Git and does not require LFS. See the [project README](ChordSlide/README.md), [model card](ChordSlide/models/MODEL_CARD.md), [signal feasibility](ChordSlide/docs/FEASIBILITY.md), [verification report](ChordSlide/VERIFICATION_REPORT.md) and [operator flash guide](ChordSlide/FLASH_GUIDE.md). Build caches, virtual environments and package-download caches are excluded; the recorded final artifacts and reports remain under `ChordSlide/build/`.
 
 ## FalseTouch-Shield - Touch Classification and Dataset Collection
 

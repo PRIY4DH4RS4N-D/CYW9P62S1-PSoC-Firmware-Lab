@@ -1,0 +1,57 @@
+{
+  "cmsis": {
+    "version": "release-v6.1.1",
+    "commit": "da256abef031ac055ae09d25b534ba64096bec62",
+    "source": "local installed SDK snapshot"
+  },
+  "core-lib": {
+    "version": "release-v1.8.0",
+    "commit": "ca57d1e519e08badec6891d1776c7b4f05e09561",
+    "source": "local installed SDK snapshot"
+  },
+  "core-make": {
+    "version": "release-v3.10.0",
+    "commit": "aefe7ff6ff59de2cb357362638231f701f7a220c",
+    "source": "local installed SDK snapshot"
+  },
+  "mtb-hal-cat1": {
+    "version": "release-v2.7.4",
+    "commit": "c2558131d294accb006048208d1bb4b625a767d9",
+    "source": "local installed SDK snapshot"
+  },
+  "mtb-pdl-cat1": {
+    "version": "release-v3.24.0",
+    "commit": "7824cbb180850f74933aed2dbab139e47221ae2b",
+    "source": "local installed SDK snapshot"
+  },
+  "recipe-make-cat1a": {
+    "version": "release-v2.8.0",
+    "commit": "87eace0413b71486cf1798a2ac71ee516a657c74",
+    "source": "local installed SDK snapshot"
+  },
+  "cat1cm0p": {
+    "version": "release-v1.11.0",
+    "commit": "b2f7229c959a94251e0c436602c0e81de0ebdbc8",
+    "source": "local installed SDK snapshot"
+  },
+  "udb-sdio-whd": {
+    "version": "release-v1.2.1",
+    "commit": "9ecf7fb00f40847d658f2c4de00397c77c92f89a",
+    "source": "local installed SDK snapshot"
+  },
+  "retarget-io": {
+    "version": "release-v1.11.0",
+    "commit": "5794a9e9bf0dd5b21d8e45b714aad8409e5e16bf",
+    "source": "local installed SDK snapshot"
+  },
+  "bt-fw-azw-cyw43438": {
+    "version": "release-v1.0.0",
+    "commit": "7ebeb63f89b044c57f5521dd2d8fd681d70501cf",
+    "source": "local installed SDK snapshot"
+  },
+  "ml-tflite-micro": {
+    "commit": "9501efde9411c482c9149e82cb361953271259e8",
+    "source": "https://github.com/Infineon/ml-tflite-micro",
+    "version": "3.5.0"
+  }
+}

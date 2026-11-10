@@ -31,3 +31,6 @@ FalseTouch-Shield/sdk/** -text
 FalseTouch-Shield/prebuilt/** -text
 FalseTouch-Shield/prebuilt/README.md text eol=lf
 FalseTouch-Shield/prebuilt/FalseTouch-Shield-Windows-x64.zip filter=lfs diff=lfs merge=lfs -text
+
+# ChordSlide snapshots and recorded evidence retain exact verified bytes.
+ChordSlide/** -text

@@ -1,0 +1,51 @@
+
+C:\Psoc_Projects\ChordSlide\build\artifacts\ChordSlide.elf:     file format elf32-littlearm
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .cy_m0p_image 000019b4  10000000  10000000  00001000  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  1 .text         0001d804  10002000  10002000  00003000  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .ARM.exidx    00000008  1001f804  1001f804  00020804  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  3 .copy.table   00000018  1001f80c  1001f80c  0002080c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  4 .zero.table   00000008  1001f824  1001f824  00020824  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  5 .ramVectors   0000028c  08002000  08002000  00021818  2**3
+                  CONTENTS, READONLY
+  6 .data         0000057c  0800228c  1001f82c  0002128c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  7 .cy_sharedmem 0000000c  08002808  1001fda8  00021808  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+  8 .noinit       000000cc  08002818  1001fdb8  00021818  2**3
+                  ALLOC
+  9 .bss          0001371c  080028f0  1001fdb4  000218f0  2**4
+                  ALLOC
+ 10 .heap         000307f0  08016010  1001fdb4  00022010  2**3
+                  ALLOC, READONLY
+ 11 .stack_dummy  00001000  08046800  08046800  00021aa8  2**3
+                  CONTENTS, READONLY
+ 12 .ARM.attributes 0000002e  00000000  00000000  00022aa8  2**0
+                  CONTENTS, READONLY
+ 13 .comment      000000c4  00000000  00000000  00022ad6  2**0
+                  CONTENTS, READONLY
+ 14 .debug_line   0002f2cd  00000000  00000000  00022b9a  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 15 .debug_line_str 000002fa  00000000  00000000  00051e67  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 16 .debug_info   0011b937  00000000  00000000  00052161  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 17 .debug_abbrev 0000dcc5  00000000  00000000  0016da98  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 18 .debug_aranges 000026d0  00000000  00000000  0017b760  2**3
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 19 .debug_str    000d456a  00000000  00000000  0017de30  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 20 .debug_loclists 0002242a  00000000  00000000  0025239a  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 21 .debug_rnglists 000034ed  00000000  00000000  002747c4  2**0
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+ 22 .debug_frame  000072f8  00000000  00000000  00277cb4  2**2
+                  CONTENTS, READONLY, DEBUGGING, OCTETS

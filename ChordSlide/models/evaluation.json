@@ -1,0 +1,242 @@
+{
+  "source": "SYNTHETIC SMOKE TEST ONLY",
+  "labels": [
+    "swipe_left",
+    "swipe_right",
+    "tap",
+    "double_tap",
+    "long_press",
+    "slide_button0",
+    "slide_button1",
+    "unknown"
+  ],
+  "train_sessions": [
+    "synthetic-0",
+    "synthetic-1",
+    "synthetic-2",
+    "synthetic-3"
+  ],
+  "validation_sessions": [
+    "synthetic-4"
+  ],
+  "test_sessions": [
+    "synthetic-5"
+  ],
+  "float32": {
+    "swipe_left": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 35.0
+    },
+    "swipe_right": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 35.0
+    },
+    "tap": {
+      "precision": 0.7954545454545454,
+      "recall": 1.0,
+      "f1-score": 0.8860759493670886,
+      "support": 35.0
+    },
+    "double_tap": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1-score": 0.8888888888888888,
+      "support": 35.0
+    },
+    "long_press": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 35.0
+    },
+    "slide_button0": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 35.0
+    },
+    "slide_button1": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 35.0
+    },
+    "unknown": {
+      "precision": 1.0,
+      "recall": 0.9428571428571428,
+      "f1-score": 0.9705882352941176,
+      "support": 35.0
+    },
+    "accuracy": 0.9678571428571429,
+    "macro avg": {
+      "precision": 0.9744318181818181,
+      "recall": 0.9678571428571429,
+      "f1-score": 0.9681941341937619,
+      "support": 280.0
+    },
+    "weighted avg": {
+      "precision": 0.9744318181818183,
+      "recall": 0.9678571428571429,
+      "f1-score": 0.9681941341937618,
+      "support": 280.0
+    }
+  },
+  "int8": {
+    "swipe_left": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 35.0
+    },
+    "swipe_right": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 35.0
+    },
+    "tap": {
+      "precision": 0.7142857142857143,
+      "recall": 1.0,
+      "f1-score": 0.8333333333333334,
+      "support": 35.0
+    },
+    "double_tap": {
+      "precision": 1.0,
+      "recall": 0.6857142857142857,
+      "f1-score": 0.8135593220338984,
+      "support": 35.0
+    },
+    "long_press": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 35.0
+    },
+    "slide_button0": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 35.0
+    },
+    "slide_button1": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 35.0
+    },
+    "unknown": {
+      "precision": 1.0,
+      "recall": 0.9142857142857143,
+      "f1-score": 0.9552238805970149,
+      "support": 35.0
+    },
+    "accuracy": 0.95,
+    "macro avg": {
+      "precision": 0.9642857142857143,
+      "recall": 0.95,
+      "f1-score": 0.9502645669955309,
+      "support": 280.0
+    },
+    "weighted avg": {
+      "precision": 0.9642857142857143,
+      "recall": 0.95,
+      "f1-score": 0.9502645669955307,
+      "support": 280.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      35,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      35,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      35,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      11,
+      24,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      35,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      35,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      35,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      32
+    ]
+  ],
+  "int8_float_agreement": 0.9821428571428571,
+  "model_bytes": 3016,
+  "sha256": "666c12994e155e84e7faa80a956a2e1aa6bb97afee57928bc2a427b6747930a0",
+  "host_latency_us": {
+    "median": 11.1,
+    "p95": 16.965000000000014
+  },
+  "mcu_latency": "HARDWARE NOT TESTED",
+  "epochs": 25
+}

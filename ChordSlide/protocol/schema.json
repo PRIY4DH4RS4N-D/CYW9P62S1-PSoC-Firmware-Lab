@@ -1,0 +1,21 @@
+{
+  "name": "ChordSlide",
+  "version": 1,
+  "sync": "a55a",
+  "endian": "little",
+  "max_payload": 512,
+  "crc": "CRC16-CCITT-FALSE, poly=0x1021 init=0xffff, header(version..length)+payload",
+  "header": "<BBHH: version,type,seq,payload_bytes",
+  "messages": {
+    "1": "sample <I7H7H7B: ms,raw,baseline,normalized",
+    "2": "prediction <IIBBII8f6f: id,ms,class,flags,latency_us,drops,probabilities,features",
+    "3": "health <IIII5H: ms,drops,arena_bytes,model_trained,task stack watermarks(words)",
+    "4": "parity <H8f: request_seq,probabilities",
+    "16": "ping empty -> ACK",
+    "17": "set confidence <H permille 500..990> -> ACK",
+    "18": "parity window 448 uint8 normalized values 0..127 -> ACK then type4",
+    "128": "ACK <HBB: request_seq,command,status; 0=ok 1=invalid 2=busy 3=inference failed",
+    "19": "get model SHA256 empty -> ACK then type5",
+    "5": "model SHA256 64 ASCII hexadecimal bytes"
+  }
+}
